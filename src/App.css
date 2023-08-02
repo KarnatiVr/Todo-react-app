@@ -1,0 +1,59 @@
+.app{
+  height:400px;
+  width:500px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  gap: 7px;
+  
+  
+}
+.heading{
+  justify-self: center;
+}
+.addTask{
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  gap: 10px;
+}
+input[type="text"]{
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}
+.list-items{
+  height: 200px;
+  width: 500px;
+  overflow-y: scroll;
+  gap: 10px;
+  
+}
+input[type="checkbox"]{
+  width: 30px;
+}
+.item {
+  justify-self: start;
+  padding-left: 60px;
+  padding-right: 80px;
+  align-items: center;
+  gap: 10px;
+}
+.buttons{
+  align-self: flex-end;
+  margin-left: auto;
+}
+.important{
+  margin-right: 20px;
+}
+.Marked{
+  fill: black;
+}
+
